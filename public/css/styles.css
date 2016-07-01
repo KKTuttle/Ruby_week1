@@ -1,0 +1,5 @@
+body {
+  /*background-image: url("../img/blue-version.jpg");*/
+  background: url('../img/light-version.jpg') no-repeat left bottom fixed;
+  background-size: cover;
+}
