@@ -1,11 +1,5 @@
-# require("pry")
-#
-# class String
-#   define_method(:word_count) do |word|
-#     slovo = self
-# chosen_word_length = self.length
-#     word = self
 require("pry")
+
 class String
   define_method(:word_count) do |phrase|
     text = []
@@ -15,13 +9,7 @@ binding.pry
     phrase_array.each do |word|
       text.push(word) if slovo == word
     end
-    text.join(' ')
+    results = text.length
+    # returns  (2)
   end
 end
-
-# counter =0
-# select_word= slovo.split(' ') wrong
-
-    # counter.+(1)
-
-# counter

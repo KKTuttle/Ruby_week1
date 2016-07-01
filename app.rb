@@ -1,7 +1,7 @@
 require('sinatra')
 require('sinatra/reloader')
 require('pry')
-require('./lib/anagrams')
+require('./lib/word_count')
 also_reload('lib/**/*.rb')
 
 get('/') do
