@@ -1,12 +1,27 @@
+# require("pry")
+#
+# class String
+#   define_method(:word_count) do |word|
+#     slovo = self
+# chosen_word_length = self.length
+#     word = self
 require("pry")
-
 class String
-  define_method(:word_count) do
-    # define_method(:anagrams) do |phrase|
-  # RETURNS AN ARRAY OF LETTERS
-      select_word = self.split("").sort()
+  define_method(:word_count) do |phrase|
+    text = []
+    slovo = self
+    phrase_array = phrase.split(' ')
+binding.pry
+    phrase_array.each do |word|
+      text.push(word) if slovo == word
+    end
+    text.join(' ')
+  end
+end
 
-      anagrams = []
-  # RETURNS AN ARRAY OF WORDS
-      phrase_array = phrase.split(", ")
-  # FOR EACH WORD IN ARRAY OF WORDS
+# counter =0
+# select_word= slovo.split(' ') wrong
+
+    # counter.+(1)
+
+# counter
