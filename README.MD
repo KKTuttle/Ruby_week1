@@ -8,6 +8,13 @@
 
 _The Word Finder asks user for a word and sentence then returns how many times the word appeared in the sentence_
 
+## Setup/Installation Requirements
+
+* Clone repository onto your computer.
+* Run bundle install in your project directory to ensure all gems are installed.
+* Run ruby app.rb in your project directory to start Sinatra
+* Open a browser of your choice to localhost:4567
+
 ## Known Bugs
 
 _none_
@@ -20,7 +27,11 @@ _Contact by email: katka.karolcikova@gmail.com_
 
 ## Technologies Used
 
-_HTML, CSS, Ruby, Sinatra, Capybara_
+* HTML
+* CSS
+* Bootstrap
+* Ruby
+* Sinatra
 
 ### License
 
